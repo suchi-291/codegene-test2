@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preload" href="assets/codegene_logo.png" as="image">
+    <link rel="preload" href="assets/video3.mp4" as="video">
+    <link rel="preload" href="assets/video9.mp4" as="video">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <title>Codegene Technologies Private Limited</title>
+</head>
+
+<body>
+
+    <div id="main-desktop">
+        <header class="primary-header">
+            <div class="logo">
+                <a href="index.html"><img src="assets/codegene_logo.png" width="200px" height="50px"/></a>
+            </div>
+            <div class="menu-open" id="nav-open">
+                <i class='bx bx-menu-alt-left' ></i>
+            </div>
+    
+           </header>
+    
+           <nav class="hide">
+                    <a class="nav-close" id="nav-close"><i class='bx bx-x-circle'></i></a>
+                    <a href="index.html" class="nav-links">
+                        Home
+                    </a>
+                
+                
+                    <a href="about.html" class="nav-links">About</a>
+                
+                
+                    <a href="services.html" class="nav-links">Services</a>
+                
+                
+                    <a href="insights.html" class="nav-links">Insights</a>
+    
+                    <a href="contact.html" class="nav-links">Contact</a>
+                    
+                    <div class="nav-links-social">
+                        <span><i class='bx bxl-linkedin-square' ></i></span>
+                        <span><i class='bx bxl-instagram-alt' ></i></span>
+                        <span><i class='bx bxl-twitter' ></i>
+                        </span>
+                    </div>
+                    
+                
+            
+        </nav>
+        <div id="page1">
+            
+            <div id="hero-overlay"></div>
+            <video id="video1" src="assets/video3.mp4" autoplay loop muted loading="lazy"></video>
+            <div id="hero">
+                <h1 id="hero-header">Empowering Businesses through <span id="change-color">Digital Ingenuity</span></h1>
+                <!--<h1 id="sh1">Redefining Digital with Web3 and Beyond with <span class="change-color">Next-Gen Apps</span></h1>
+                <h1 id="th2">Building Tomorrow’s Apps <span class="change-color">Today</span></h1>-->
+                <button id="hero-cta">Contact Us
+                </button>
+            </div>
+        </div>
+
+        <div id="page2">
+
+            <div id="page2-overlay"></div>
+
+            <video id="video2" src="assets/video9.mp4" autoplay loop muted loading="lazy"></video>
+            <div id="value">
+                <h2 id="page2-title">Redefining Digital Space with web-3 and beyond, One Next-Gen App at a Time </h2>
+                <div id="offer">
+                    <!--<div id="how-we-offer">-->
+                        <!--<div id="how-we-offer-overlay"></div>-->
+                        <div id="how-we-offer-wrap">
+                            <h3 id=how-we-offer-h3>Accelerate Your Business Transformation with Our Digital Expertise
+                            </h3>
+                            <p>We possess a well-established track record of developing next-generation applications in
+                                the Fintech domain, supported by a team of highly skilled and dedicated developers. We
+                                go beyond traditional approaches, delivering trending technological solutions tailored
+                                to meet the unique needs of your business.</p>
+                        </div>
+                    <!--</div>-->
+
+                    <div id="pillars">
+                        <div id="pillarCol1">
+                            <div id="pillar1">
+                                <div class="icon">
+                                    <div><i class='bx bx-terminal' style="font-size: 24px; font-weight: 100;"></i></div>
+                                </div>
+                                <div class="pillarText">
+                                    <h4>Comprehensive software solutions</h4>
+                                    <p>Superior UI/UX designs centered on user experience, end-to-end development
+                                        support, and bespoke solutions.</p>
+                                    <div class="pillarFancyBar" id="gradient1"></div>
+                                </div>
+
+
+                            </div>
+                            <div id="pillar2">
+                                <div class="icon"><i class='bx bx-group' style="font-size: 27px; font-weight: 100;"></i>
+                                </div>
+                                <div class="pillarText">
+                                    <h4>Agile Development Team</h4>
+                                    <p>Swift team-building and seasoned engineers to elevate your project with advanced
+                                        expertise.</p>
+                                    <div class="pillarFancyBar" id="gradient2"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div id="pillarCol2">
+                            <div id="pillar3">
+                                <div class="icon"><i class='bx bx-cog' style="font-size: 24px; font-weight: 100;"></i>
+                                </div>
+                                <div class="pillarText">
+                                    <h4>Concept-to-Product Development</h4>
+                                    <p>Gain a competitive edge with a tailored POC, precise market insights, and a
+                                        compelling product presentation.</p>
+                                    <div class="pillarFancyBar" id="gradient3"></div>
+                                </div>
+                            </div>
+                            <div id="pillar4">
+                                <div class="icon"><i class='bx bx-network-chart'
+                                        style="font-size: 24px; font-weight: 100;"></i></div>
+                                <div class="pillarText">
+                                    <h4>Pioneering Tomorrow’s Technologies</h4>
+                                    <p>Transforming visionary ideas into reality through the integration of
+                                        future-driven technologies.</p>
+                                    <div class="pillarFancyBar" id="gradient4"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+            </div>
+
+        </div>
+
+        
+        <div id="page3">
+            <!--<div id="page3-overlay"></div>-->
+            <h2 id="page3-title">Discover how CodeGene is revolutionizing the future of talent and technology. </h2>
+            <div class="container">
+                <div class="tabs">
+                    <div class="tab active">
+                        <div class="tab-text">Our Story <i class='bx bx-right-arrow-circle'
+                                style="font-size: 24px;"></i></div>
+                        <div class="fancyborder"></div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab-text">Our Expertise<i class='bx bx-right-arrow-circle'
+                                style="font-size: 24px;"></i></div>
+                        <div class="fancyborder"></div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab-text">Our Drive<i class='bx bx-right-arrow-circle' style="font-size: 24px;"></i>
+                        </div>
+                        <div class="fancyborder"></div>
+                    </div>
+                </div>
+                <div class="contents">
+                    <div class="tab-content show">
+
+                        <h3>Connecting Exceptional Talent with Visionary Organizations</h3>
+                        <p>At CodeGene.io, we are dedicated to revolutionizing the way exceptional talent connects with
+                            high-growth organizations. Our mission is to empower professionals to seamlessly navigate
+                            the opportunities spectrum, whether they are joining an emerging startup or a globally
+                            recognized unicorn. Beyond being a platform, we act as enablers of professional development,
+                            nurturing technical acumen and cultural adaptability. Guided by a commitment to efficiency
+                            and innovation, we develop transformative software solutions that redefine talent
+                            acquisition and fuel the growth of forward-thinking organizations.</p>
+                        
+                    </div>
+                    <div class="tab-content">
+                        <h3>We're the pioneers of tomorrow’s Financial Ecosystem </h3>
+                        <p>Our services cater to diverse industries across the globe, offering tailored solutions
+                            designed to solve even the most intricate challenges. With a foundation built on extensive
+                            experience, we embrace the newest technologies to redefine financial transformation.
+                            Collaborate with us to explore pioneering innovations that seamlessly blend technological
+                            and financial expertise. Together, we will shape a connected and efficient financial
+                            ecosystem that adapts to the ever-evolving demands of the modern world, delivering
+                            excellence through technological progress.</p>
+                    </div>
+                    <div class="tab-content">
+                        <h3>Navigating Challenges with Innovation and Adaptability as our Compass</h3>
+                        <p>At CodeGene.io, we are dedicated to empowering individuals and businesses to reach their full
+                            potential through technology. Passion and purpose are at the heart of our innovation,
+                            helping us create solutions that drive progress and solve challenges. We embrace
+                            adaptability, leveraging change to continuously innovate and deliver results that exceed
+                            expectations. Our commitment to learning and experimentation fosters a culture of growth and
+                            discovery, propelling us toward greater success. Customer success is our ultimate goal, and
+                            we are committed to anticipating and meeting your needs, ensuring that together, we achieve
+                            greatness.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="page4">
+            <!--<div id="page4-overlay"></div>-->
+            <div class="banner">
+                <div class="content">
+                    <h2 id="page4-title">Transformative Technologies We Integrate for Optimal Solutions</h2>
+                </div>
+
+                <div class="slider" style="--quantity: 8">
+                    <div class="item" style="--position: 1">
+                        <div class="slide-wrapper">
+                            <h3 style="width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                FINTECH</h3>
+                        </div><img src="assets/9.jpg" alt="">
+                    </div>
+                    <div class="item" style="--position: 2">
+                        <div class="slide-wrapper">
+                            <h3 style="width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                BLOCKCHAIN</h3>
+                        </div><img src="assets/5.jpg" alt="">
+                    </div>
+                    <div class="item" style="--position: 3">
+                        <div class="slide-wrapper">
+                            <h3 style="width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">API
+                            </h3>
+                        </div><img src="assets/3.jpg" alt="">
+                    </div>
+                    <div class="item" style="--position: 4">
+                        <div class="slide-wrapper">
+                            <h3 style="width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">BIG
+                                DATA</h3>
+                        </div><img src="assets/4.jpg" alt="">
+                    </div>
+                    <div class="item" style="--position: 5">
+                        <div class="slide-wrapper">
+                            <h3 style="width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">WEB
+                                SECURITY</h3>
+                        </div><img src="assets/8.jpg" alt="">
+                    </div>
+                    <div class="item" style="--position: 6">
+                        <div class="slide-wrapper">
+                            <h3 style="width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                GAMING</h3>
+                        </div><img src="assets/6.jpg" alt="">
+                    </div>
+                    <div class="item" style="--position: 7">
+                        <div class="slide-wrapper">
+                            <h3 style="width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                MOBILE & WEB APPS</h3>
+                        </div><img src="assets/10.jpg" alt="">
+                    </div>
+                    <div class="item" style="--position: 8">
+                        <div class="slide-wrapper">
+                            <h3 style="width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">AI &
+                                ML</h3>
+                        </div><img src="assets/2.jpg" alt="">
+                    </div>
+                </div>
+
+                
+                <div class="content2">
+                
+                    <div class="row">
+                        <div id="fintech" class="techbox">
+                            <div class="icon2" ><i class="material-icons">price_check</i>
+                            </div>
+                            <h3>FINTECH & FINAPPS</h3>
+                            <p>We are at the forefront of redefining traditional banking paradigms. We develop the next generation of financial applications designed to provide both users and enterprises with greater control and enhanced security. <span>Learn more</span></p>
+                                <i class='bx bx-right-arrow-circle'
+                                style="font-size: 24px;"></i>
+                        </div>
+                        <div id="blockchain" class="techbox">
+                            <div class="icon2"><i class="material-icons" style="font-size: 32px;">account_tree</i></div>
+                            <h3>BLOCKCHAIN DEVELOPMENT</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus.Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Earum ducimus </p>
+                                <i class='bx bx-right-arrow-circle'
+                                style="font-size: 24px;"></i>
+                        </div>
+                        <div id="web3" class="techbox">
+                            <div class="icon2"><i class="material-icons">language</i></div>
+                            <h3>WEB 3.0</h3>
+                            <p>Our digital world is never static, and we embrace the power of Web3 through building innovative products that transform corporate processes, encourage decentralisation, and give people greater control over their data. <span>Learn more</span></p>
+                                <i class='bx bx-right-arrow-circle'
+                                style="font-size: 24px;"></i>
+                        </div>
+                        <div id="data" class="techbox">
+                            <div class="icon2"><i class="material-icons">cloud_queue</i></div>
+                            <h3>BIG DATA & DATA MANAGEMENT</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus.Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Earum ducimus </p>
+                                <i class='bx bx-right-arrow-circle'
+                                style="font-size: 24px;"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="apps" class="techbox">
+                            <div class="icon2"><i class="material-icons">apps</i></div>
+                            <h3>MOBILE & WEB APPS</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus.Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Earum ducimus </p>
+                                <i class='bx bx-right-arrow-circle'
+                                style="font-size: 24px;"></i>
+                        </div>
+                        <div id="api" class="techbox">
+                            <div class="icon2"><i class="material-icons">api</i></div>
+                            <h3>API DEVELOPMENT</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus.Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Earum ducimus </p>
+                                <i class='bx bx-right-arrow-circle'
+                                style="font-size: 24px;"></i>
+                        </div>
+                        <div id="gaming" class="techbox">
+                            <div class="icon2"><i class="material-icons">sports_esports</i></div>
+                            <h3>GAMING</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus.Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Earum ducimus </p>
+                                <i class='bx bx-right-arrow-circle'
+                                style="font-size: 24px;"></i>
+                        </div>
+                        <div id="aiml" class="techbox">
+                            <div class="icon2"><span class="material-symbols-outlined">network_intelligence</span></div>
+                            <h3>AI & ML</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus.Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Earum ducimus </p>
+                                <i class='bx bx-right-arrow-circle'
+                                style="font-size: 24px;"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div id="page5">
+            <div id="page5-overlay"></div>
+            <h2 style="text-align: center" id="page5-title">Leading the Way with Our State-of-the-Art Tech Stack</h2>
+            <div class="scroller" data-direction="right" data-speed="slow">
+                <div class="scroller__inner">
+                    <img src="assets/amazon-web-services.png" alt="aws" />
+                    <img src="assets/blockchain.png" alt="blockchain" />
+                    <img src="assets/bull.png" alt="bull" />
+                    <img src="assets/java.png" alt="java" />
+                    <img src="assets/mongodb.png" alt="mongodb" />
+                    <img src="assets/node.png" alt="node" />
+                    <img src="assets/python.png" alt="python">
+                    <img src="assets/react-native.png" alt="react-native">
+                    <img src="assets/react.png" alt="react">
+                    <img src="assets/redis.png" alt="redis">
+                    <img src="assets/redux.png" alt="redux">
+                    <img src="assets/swift.png" alt="swift">
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <footer style="display: flex; flex-direction: column; justify-content: space-evenly;gap: 20px; align-items: center; flex-wrap: wrap ;width: 100%;font-family: Montserrat, serif ;color: #06207D; background-color: white; ">
+            <div id="footer-div" style="display: flex; justify-content: space-evenly; align-items: flex-start; width: 100%;height: 400px;padding:100px">
+                <div>
+                    <img src="assets/codegene_logo.png" alt="CodeGene Technologies Private Limited">
+                </div>
+                <div>
+                    <h3>Our Address</h3>
+                    <p></p>
+                    <p><span></span></p>
+                </div>
+                <div style="display: flex;flex-direction: column; justify-content: space-evenly;gap:30px">
+                    <h3>Useful Links</h3>
+                    <div style="display: flex;flex-direction: column; justify-content: space-evenly;gap:20px">
+                    <a href="index.html" style="text-decoration: none;color: #06207D">Home</a>
+                    <a href="about.html" style="text-decoration: none;color: #06207D">About us</a>
+                    <a href="services.html" style="text-decoration: none;color: #06207D;">Services</a>
+                    <a href="#" style="text-decoration: none;color: #06207D">Careers</a>
+                    </div>
+                    
+                    <button style="padding: 10px 20px ;color: white; border-radius: 10px;background-color: rgb(6, 126, 163);border:none">Contact</button>
+                </div>
+                <div>
+                    <h3>Follow us</h3> 
+                    <div class="nav-links-social2" style="display: flex; padding: 20px 0px;gap:10px; font-size: 24px;">
+                        <span><i class='bx bxl-linkedin-square' ></i></span>
+                        <span><i class='bx bxl-instagram-alt' ></i></span>
+                        <span><i class='bx bxl-twitter' ></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 1px;width: 80%;background-color: #06207d68;"></div>
+            <div style="padding:20px">
+                <p>&copy All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

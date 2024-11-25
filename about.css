@@ -1,0 +1,155 @@
+#about-header{
+    background-image: url(assets/bg11.png);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#about-header-wrap{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+
+#about-header-title{
+    font-size: 72px;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+
+#about-header-para{
+    margin: 120px;
+    align-self: center;
+    text-align: center;
+}
+
+#about-matter{
+    display: flex;
+   
+    gap:40px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.about-block{
+    display: flex;
+    
+    width: 100%;
+    flex-direction: row;
+}
+
+.about-block-image-wrap{
+    width: 50%;
+    padding: 100px;
+    border-radius: 10px;
+}
+
+.about-block-text-wrap{
+    width: 50%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    border: 1px solid white;
+
+}
+
+.about-block-text-decor{
+    background-color: rgba(255, 255, 255, 0.47); 
+    width: 4rem; 
+    height: 4rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3px;
+    font-size: 1rem;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1200px){
+
+    #about-matter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:40px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+
+    .about-block{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .about-block-image-wrap{
+        display: none;
+    }
+
+    .about-block-text-wrap{
+        width: 100%;
+        padding:20px;
+        margin: 20px;
+    }
+
+    #about-header-para{
+        margin: 40px;
+        align-self: center;
+        text-align: center;
+        line-height: 32px;
+    }
+    
+
+}
+@media (max-width: 767px) {
+    .about-block{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        padding: 40px;
+    }
+    .about-block-image-wrap{
+        display: none;
+    }
+    .about-block-text-wrap{
+        width: 100%;
+        padding:20px;
+        margin: 20px;
+    }
+
+    #about-header-para{
+        margin: 40px;
+        align-self: center;
+        text-align: center;
+        line-height: 32px;
+    }
+    
+
+#about-matter{
+    display: flex;
+   
+    gap:40px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0px;
+}
+
+}
