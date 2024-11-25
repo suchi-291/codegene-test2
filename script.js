@@ -280,6 +280,25 @@ gsap.from( "#page4-title", {
 
 })
 
+gsap.from( ".techbox", {
+  opacity : 0,
+  y: 40,
+  duration: 1,
+  delay: 1,
+  
+  scrollTrigger: {
+      trigger: ".techbox",
+      scroller: "body",
+      markers: false,
+     
+      lazy: true
+ 
+  }
+
+})
+
+
+
 
 
 
