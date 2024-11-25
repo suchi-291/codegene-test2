@@ -306,7 +306,7 @@ nav a {
 #page2 #offer #how-we-offer-wrap {
     /*position: absolute;*/
     width: 45%;
-    background-image: url(assets/what-we-offer-3.png
+    background-image: url(assets/what-we-offer-3_batcheditor_fotor.jpg
 );
     background-position: center;
     background-size: cover;
@@ -508,7 +508,7 @@ nav a {
     /*position: relative;*/
     width: 100vw;
     height: 140vh;
-    background-image: url(assets/bg-62.png);
+    background-image: url(assets/bg-62_batcheditor_fotor.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -652,7 +652,7 @@ nav a {
     width: 100vw;
     height: 280vh;
     /*position: relative;*/
-    background-image: url(assets/bg42.png);
+    background-image: url(assets/bg42_batcheditor_fotor.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
