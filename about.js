@@ -21,4 +21,31 @@ document.addEventListener("DOMContentLoaded", () => {
       .to(decorDiv, { backgroundColor: "rgb(6, 126, 163)", color: "white", duration: 1 }, "<"); // Change background and text color
     });
   });
+
+
+
+  /* Horizontal scroll */
+
+const races = document.querySelector(".races");
+function getScrollAmount(){
+    let racesWidth = races.scrollWidth;
+    return -(racesWidth - window.innerWidth);
+}
+
+const tween = gsap.to(races, {
+    x: getScrollAmount,
+    duration: 3,
+    ease: "none",
+});
+
+ScrollTrigger.create({
+    trigger: ".racesWrapper",
+    start: "top 20%",
+    end: () => `+=${getScrollAmount() * -1}`,
+    pin: true,
+    animation: tween,
+    scrub:1,
+    invalidateOnRefresh: true,
+    markers:true,
+})
   
