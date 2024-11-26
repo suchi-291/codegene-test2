@@ -230,17 +230,16 @@ gsap.to(".fancyborder",{
 gsap.from( "#page3-title", {
   opacity : 0,
   y: 40,
-  duration: 1,
-  delay: 1,
-  stagger: 1,
+  duration: 0.5,
+  delay: 0.3,
   scrollTrigger:'#page3' })
 
 
 gsap.from( ".container", {
   opacity : 0,
   y: 40,
-  duration: 1,
-  delay: 1,
+  duration: 0.5,
+  delay: 0.3,
   scrollTrigger: '#page3'
 
 })
@@ -249,8 +248,8 @@ gsap.from( ".container", {
 gsap.from( "#page4-title", {
   opacity : 0,
   y: 40,
-  duration: 1,
-  delay: 1,
+  duration: 0.5,
+  delay: 0.3,
   stagger: 1,
   scrollTrigger: "#page4"
 
@@ -259,8 +258,8 @@ gsap.from( "#page4-title", {
 gsap.from( ".techbox", {
   opacity : 0,
   y: 40,
-  duration: 1,
-  delay: 1,
+  duration: 0.5,
+  delay: 0.3,
   
   scrollTrigger: '.techbox'
 
