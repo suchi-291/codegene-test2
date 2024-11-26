@@ -49,3 +49,23 @@ ScrollTrigger.create({
     markers:false,
 })
   
+
+gsap.from('#about-stats-wrapper',{
+  opacity: 0,
+  y:40,
+  color: '#337FA3',
+  duration:3,
+  scrollTrigger:('#about-stats-wrapper'),
+
+})
+
+
+    gsap.from(".about-value", {
+      x: 100,  
+      opacity: 1,
+      duration: 1,  
+      stagger: 0.3,  
+      ease: "power2.out", 
+      scrollTrigger:(".about-value")
+    });
+
