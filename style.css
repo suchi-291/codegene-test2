@@ -66,7 +66,7 @@ nav{
     position: fixed;
     left: 0;
     top:0;
-    background-color: hsl(0 0% 100% / 0.1);
+     background-color: #00041064;
     backdrop-filter: blur(2rem);
     display: flex;
     flex-direction: column;
@@ -87,6 +87,7 @@ nav a {
     position: relative;
     padding: 0.8rem;
     font-family: "Montserrat", serif;
+   
 }
 
 .nav-links::before{
@@ -146,14 +147,16 @@ nav a {
     right: 0;
     top: 0;
     font-size: 2rem;
-    color: rgb(35, 12, 12);
+    color: #e0e3eb;
     cursor: pointer;
-    padding: 2.1rem 1rem;
+    padding: 1rem 2.1rem;
+ 
    
 }
 
 .nav-close:hover{
     color: #A5E0DD;
+    
 }
 
 
@@ -800,8 +803,9 @@ nav a {
 }
 
 .techbox:hover {
-    transform: scale(1);
+    transform: scale(1.5);
     /* Scale back to normal size */
+    transition: 0.5s ease-in-out;
 
 }
 
@@ -810,48 +814,57 @@ nav a {
     color: rgb(29, 28, 28);
     font-weight: 300;
     transition: 0.5s ease-in-out;
+    
+
 }
 
 #blockchain:hover {
     background-color: rgba(223, 239, 253, 0.788);
     color: rgb(29, 28, 28);
     font-weight: 300;
+    transition: 0.5s ease-in-out;
 }
 
 #apps:hover {
     background-color: rgba(223, 239, 253, 0.788);
     color: rgb(29, 28, 28);
     font-weight: 300;
+    transition: 0.5s ease-in-out;
 }
 
 #web3:hover {
     background-color: rgba(223, 239, 253, 0.788);
     color: rgb(29, 28, 28);
     font-weight: 300;
+    transition: 0.5s ease-in-out;
 }
 
 #data:hover {
     background-color: rgba(223, 239, 253, 0.788);
     color: rgb(29, 28, 28);
     font-weight: 300;
+    transition: 0.5s ease-in-out;
 }
 
 #api:hover {
     background-color: rgba(223, 239, 253, 0.788);
     color: rgb(29, 28, 28);
     font-weight: 300;
+    transition: 0.5s ease-in-out;
 }
 
 #gaming:hover {
     background-color: rgba(223, 239, 253, 0.788);
     color: rgb(29, 28, 28);
     font-weight: 300;
+    transition: 0.5s ease-in-out;
 }
 
 #aiml:hover {
     background-color: rgba(223, 239, 253, 0.788);
     color: rgb(29, 28, 28);
     font-weight: 300;
+    transition: 0.5s ease-in-out;
 }
 
 

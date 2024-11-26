@@ -233,16 +233,7 @@ gsap.from( "#page3-title", {
   duration: 1,
   delay: 1,
   stagger: 1,
-  scrollTrigger: {
-      trigger: "#page3-title",
-      scroller: "body",
-      markers: false,
-      
-      lazy: true
- 
-  }
-
-})
+  scrollTrigger:'#page3' })
 
 
 gsap.from( ".container", {
@@ -250,15 +241,7 @@ gsap.from( ".container", {
   y: 40,
   duration: 1,
   delay: 1,
-  stagger: 1,
-  scrollTrigger: {
-      trigger: ".container",
-      scroller: "body",
-      markers: false,
-      
-      lazy: true
- 
-  }
+  scrollTrigger: '#page3'
 
 })
 
@@ -269,14 +252,7 @@ gsap.from( "#page4-title", {
   duration: 1,
   delay: 1,
   stagger: 1,
-  scrollTrigger: {
-      trigger: "#page4-title",
-      scroller: "body",
-      markers: false,
-     
-      lazy: true
- 
-  }
+  scrollTrigger: "#page4"
 
 })
 
@@ -286,14 +262,7 @@ gsap.from( ".techbox", {
   duration: 1,
   delay: 1,
   
-  scrollTrigger: {
-      trigger: ".techbox",
-      scroller: "body",
-      markers: false,
-     
-      lazy: true
- 
-  }
+  scrollTrigger: '.techbox'
 
 })
 
@@ -310,14 +279,7 @@ gsap.from( "#page5-title", {
   duration: 1,
   delay: 1,
   stagger: 1,
-  scrollTrigger: {
-      trigger: "#page4-title",
-      scroller: "body",
-      markers: false,
-     
-      lazy: true
- 
-  }
+  scrollTrigger: "#page5"
 
 })
 
