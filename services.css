@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    color: #03165a;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links{
+    color: #e0e3eb;
+}
+
+nav{
+    background-color: #00041064;
+}
+
+#services-main-wrapper{
+    padding: 40px 100px;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+   align-items: center;
+   text-align: center;
+   background-color: white;
+
+}
+
+#services-main-header{
+    color: #03165a;
+    font-weight: 400;
+}
+
+#services-main-para{
+    width: 60%;
+}
+
+#banner-services-wrapper{
+    width: 70%;
+    height: 15rem;
+    
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#services-blocks{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(100, 207, 237, 0.058);
+    padding: 40px;
+    
+
+}
+
+.service-block{
+    border: 1px solid rgba(0, 0, 0, 0.554);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:20px;
+    gap:20px;
+    border-radius: 10px;
+    
+}
+
+.service-block p{
+    text-align: start;
+    width: 100%;
+}
+
+
+.service-button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #03165a20;
+}
+
+
+#services-why-us{
+    display: flex;
+    gap: 30px;
+    height: 100vh;
+
+}
+
+
+#services-why-matter{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px
+}
+
+#services-why-us-image{
+    width: 50%;
+}
+
+#why-us-cta{
+    background-color: #03165a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.services-cta-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:8px;
+}
+
+.services-cta-block-decor{
+    height: 1px; 
+    background-color: rgba(100, 207, 237, 0.495);
+    width: 100%;
+}
+
+.services-cta-block a{
+    text-decoration: none;
+    color: #ED8264;
+    font-weight: 300;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    #services-main-wrapper{
+        padding: 20px ;
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+       align-items: center;
+       text-align: center;
+       background-color: white;
+    
+    }
+    
+
+    #services-blocks{
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+        gap:25px;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+
+    .service-block{
+        border: 1px solid rgba(0, 0, 0, 0.554);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding:20px;
+        gap:20px;
+        border-radius: 10px;
+    }
+
+    #services-why-us{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+
+#services-why-matter{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px
+}
+
+#services-why-us-image{
+    width: 80%;
+    
+}
+
+ 
+}
+
+
+@media (max-width: 767px) {
+    #services-main-wrapper{
+        padding: 20px ;
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+       align-items: center;
+       text-align: center;
+       background-color: white;
+    
+    }
+
+    #services-main-para{
+        width: 80%;
+    }
+
+    #services-blocks{
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap:25px;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+
+    .service-block{
+        border: 1px solid rgba(0, 0, 0, 0.554);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding:20px;
+        gap:20px;
+        border-radius: 10px;
+    }
+
+    #services-why-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+#services-why-matter{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+#services-why-us-image{
+    width: 80%;
+    
+}
+
+
+
+
+}
