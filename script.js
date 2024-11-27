@@ -100,7 +100,7 @@ const ml = gsap.timeline({
     trigger: "#hero-header", // Start when this element is in view
     scroller: "body",
     markers: false,
-    start: "top 60%", // Adjust based on your layout
+    start: "top 95%", // Adjust based on your layout
     lazy: true
   }
 });

@@ -130,12 +130,14 @@ video {
     display: flex;
     gap: 5rem;
     flex-wrap: wrap;
+    align-items: center;
 }
 .about-value{
     display: flex;
     flex-direction: column;
     gap:20px;
     align-items: center;
+    width: 100%;
     
 }
 .about-value h3{
@@ -300,6 +302,8 @@ video {
         gap: 3rem;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
+        text-align: center;
     }
    
     #about-banner{
@@ -403,7 +407,11 @@ video {
         gap: 3rem;
         flex-wrap: wrap;
         height: max-content;
+        justify-content: center;
+        align-items: center;
     }
+
+    
     
     #about-banner{
         height: max-content;
