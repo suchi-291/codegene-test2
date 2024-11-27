@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css"/>
-   <link rel="preload" href="assets/codegene_logo.png" as="image">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preload" href="assets/codegene_logo.png" as="image">
     <link rel="preload" href="assets/video3.mp4" as="video">
     <link rel="preload" href="assets/video9.mp4" as="video">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
@@ -20,76 +21,269 @@
     <title>Insights</title>
 
 </head>
+
 <body>
     <div id="main-desktop">
         <header class="primary-header">
             <div class="logo">
-                <a href="index.html"><img src="assets/codegene_logo.png" width="200px" height="50px"/></a>
+                <a href="index.html"><img src="assets/codegene_logo.png" width="200px" height="50px" /></a>
             </div>
             <div class="menu-open" id="nav-open">
-                <i class='bx bx-menu-alt-left' ></i>
+                <i class='bx bx-menu-alt-left'></i>
             </div>
-    
+
         </header>
-    
-           <nav class="hide">
-                    <a class="nav-close" id="nav-close"><i class='bx bx-x-circle'></i></a>
-                    <a href="index.html" class="nav-links">
-                        Home
-                    </a>
-                
-                
-                    <a href="about.html" class="nav-links">About</a>
-                
-                
-                    <a href="services.html" class="nav-links">Services</a>
-                
-                
-                    <a href="insights.html" class="nav-links">Insights</a>
-    
-                    <a href="contact.html" class="nav-links">Contact</a>
-                    
-                    <div class="nav-links-social">
-                        <span><i class='bx bxl-linkedin-square' ></i></span>
-                        <span><i class='bx bxl-instagram-alt' ></i></span>
-                        <span><i class='bx bxl-twitter' ></i>
-                        </span>
-                    </div>
-                    
-                
-            
+
+        <nav class="hide">
+            <a class="nav-close" id="nav-close"><i class='bx bx-x-circle'></i></a>
+            <a href="index.html" class="nav-links">
+                Home
+            </a>
+
+
+            <a href="about.html" class="nav-links">About</a>
+
+
+            <a href="services.html" class="nav-links">Services</a>
+
+
+            <a href="insights.html" class="nav-links">Insights</a>
+
+            <a href="contact.html" class="nav-links">Contact</a>
+
+            <div class="nav-links-social">
+                <span><i class='bx bxl-linkedin-square'></i></span>
+                <span><i class='bx bxl-instagram-alt'></i></span>
+                <span><i class='bx bxl-twitter'></i>
+                </span>
+            </div>
+
+
+
         </nav>
 
         <div id="insights-container">
             <div id="insight-matter">
-                <h3 id="insight-matter-header">From satisfied clients to business growth, we’ve done it time and again</h3>
-                <p id="insight-matter-para">See how we can turn your business into a success story—reach out to us today!
+                <h3 id="insight-matter-header">From satisfied clients to business growth, we’ve done it time and again
+                </h3>
+                <p id="insight-matter-para">See how we can turn your business into a success story—reach out to us
+                    today!
                 </p>
                 <button id="insight-matter-button">Get started</button>
             </div>
             <div id="insight-blocks">
                 <div class="insight-block">
-                    <h2>100<span>+</span></h2>
+                    <h2>100<span class="insights-h2-decor">+</span></h2>
                     <p>Total Projects</p>
                 </div>
                 <div class="insight-block">
-                    <h2>80<span>+</span></h2>
+                    <h2>80<span class="insights-h2-decor">+</span></h2>
                     <p>Satisfied Clients</p>
                 </div>
                 <div class="insight-block">
-                    <h2>140<span>+</span></h2>
-                    <p>Our Team Members</p>
+                    <h2>140<span class="insights-h2-decor">+</span></h2>
+                    <p>Team Members</p>
                 </div>
-                <div class="insight-block">
-                    <h2></h2>
-                    <p></p>
+                <div class="insight-block ">
+
+                    <img src="assets/target-hit-aim-svgrepo-com.svg" alt=""
+                        style="object-fit: contain;width: 100%;height: 100%;">
                 </div>
             </div>
         </div>
-        
+
+        <div id="insights-tech-container">
+            <h2>Our Technologies</h2>
+            <p>Technologies that drive us to take off</p>
+            <div id="tech-wrap">
+
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/blockchain.png" alt="blockchain">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/react.png" alt="React">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/python.png" alt="python">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/node.png" alt="node">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/react-native.png" alt="react-native">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/redux.png" alt="redux">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/mongodb.png" alt="mongodb">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/redis.png" alt="redis">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/amazon-web-services.png" alt="amazon-web-services">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/java.png" alt="Java">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/bull.png" alt="bullmq">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-img">
+                        <img src="assets/swift.png" alt="swift">
+
+
+                    </div>
+                    
+                    <div class="tech-card-para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod iure tempore earum, nisi
+                            ea accusantium quo consectetur reiciendis totam iusto animi veritatis dolores sequi odit
+                            laborum libero eum atque!</p>
+                    </div>
+                    <div class="tech-card-decor-sq1"></div>
+                    <div class="tech-card-decor-sq2"></div>
+                </div>
+            </div>
+        </div>
+
 
         <footer>
-            <div id="footer-div" >
+            <div id="footer-div">
                 <div>
                     <img src="assets/codegene_logo.png" alt="CodeGene Technologies Private Limited">
                 </div>
@@ -98,33 +292,34 @@
                     <p></p>
                     <p><span></span></p>
                 </div>
-                <div id="footer-links-block" >
+                <div id="footer-links-block">
                     <h3>Useful Links</h3>
                     <div style="display: flex;flex-direction: column; justify-content: space-evenly;gap:20px">
-                    <a href="index.html" style="text-decoration: none;color: #06207D">Home</a>
-                    <a href="about.html" style="text-decoration: none;color: #06207D">About us</a>
-                    <a href="services.html" style="text-decoration: none;color: #06207D;">Services</a>
-                    <a href="#" style="text-decoration: none;color: #06207D">Careers</a>
+                        <a href="index.html" style="text-decoration: none;color: #06207D">Home</a>
+                        <a href="about.html" style="text-decoration: none;color: #06207D">About us</a>
+                        <a href="services.html" style="text-decoration: none;color: #06207D;">Services</a>
+                        <a href="#" style="text-decoration: none;color: #06207D">Careers</a>
                     </div>
-                    
-                    <button style="padding: 10px 20px ;color: white; border-radius: 10px;background-color: rgb(6, 126, 163);border:none">Contact</button>
+
+                    <button
+                        style="padding: 10px 20px ;color: white; border-radius: 10px;background-color: rgb(6, 126, 163);border:none">Contact</button>
                 </div>
                 <div>
-                    <h3>Follow us</h3> 
+                    <h3>Follow us</h3>
                     <div class="nav-links-social2" style="display: flex; padding: 20px 0px;gap:10px; font-size: 24px;">
-                        <span><i class='bx bxl-linkedin-square' ></i></span>
-                        <span><i class='bx bxl-instagram-alt' ></i></span>
-                        <span><i class='bx bxl-twitter' ></i>
+                        <span><i class='bx bxl-linkedin-square'></i></span>
+                        <span><i class='bx bxl-instagram-alt'></i></span>
+                        <span><i class='bx bxl-twitter'></i>
                         </span>
                     </div>
                 </div>
             </div>
-           
+
             <div style="padding:20px;text-align: center;">
                 <div style="height: 1px;width: 100%;background-color: #06207d68;margin-bottom: 10px;"></div>
                 <p>&copy All rights reserved</p>
             </div>
-    </footer>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>
