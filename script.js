@@ -60,7 +60,7 @@ const video = document.getElementById('video1');
 
 
   
-  gsap.from( "a", {
+  gsap.from( ".nav-links", {
     opacity : 0,
     y: 40,
     duration: 1,
@@ -68,7 +68,7 @@ const video = document.getElementById('video1');
     
     scrollTrigger: {
         trigger: "a",
-        scroller: "body",
+        scroller: ".nav-links",
         markers: false,
         start: "top 60%",
         lazy: true

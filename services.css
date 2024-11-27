@@ -164,7 +164,7 @@ img{
     
 
     #services-blocks{
-        width: 70%;
+        width: 80%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -235,7 +235,7 @@ img{
     }
 
     #services-blocks{
-        width: 70%;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
