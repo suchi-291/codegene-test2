@@ -128,6 +128,7 @@ video {
 }
 #about-values{
     display: flex;
+    
     gap: 5rem;
     flex-wrap: wrap;
     align-items: center;
@@ -137,7 +138,7 @@ video {
     flex-direction: column;
     gap:20px;
     align-items: center;
-    width: 100%;
+    
     
 }
 .about-value h3{
