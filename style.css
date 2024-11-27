@@ -988,6 +988,25 @@ nav a {
 }
 
 
+/************ Footer Start ***************/
+footer {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    gap: 20px; 
+    align-items: center; 
+    flex-wrap: wrap ;
+    width: 100%;
+    font-family: Montserrat, serif ;
+    color: #06207D; 
+    background-color: white;
+
+
+} 
+
+
+
+/************ Footer End ***************/
 
 
 
@@ -1822,6 +1841,9 @@ nav a {
     }
     
     /**** page5 end ****/
+
+
+    /************ Footer Start ***************/
     #footer-div{
         flex-direction: column;
         width: 100%;
@@ -1832,6 +1854,8 @@ nav a {
         flex-wrap: wrap;
     }
 
+
+     /************ Footer End ***************/
 }
 
 
@@ -2627,6 +2651,9 @@ nav a {
     
     /**** page5 end ****/
 
+
+     /************ Footer Start ***************/
+
     #footer-div{
         flex-direction: column;
         width: 100%;
@@ -2641,6 +2668,9 @@ nav a {
     footer{
         height: 120vh;
     }
+
+
+     /************ Footer End ***************/
 }
 
 

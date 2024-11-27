@@ -33,6 +33,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    padding: 1rem 2rem;
 }
 
 #insight-matter-button{
@@ -44,7 +45,7 @@ nav{
 }
 .insight-block{
     width: 45%;
-    background-color: rgba(199, 223, 245, 0.291);
+    background-color: rgba(134, 201, 214, 0.291);
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -60,11 +61,41 @@ nav{
 
 @media (min-width: 768px) and (max-width: 1200px){
 
+    #insights-container{
+        flex-direction: column;
+   
+        align-items: center;
+    }
+
+    #insight-matter{
+        width: 100%;
+        align-items: center;
+    }
     
+    #insight-blocks{
+        width: 100%;
+        align-items: center;
+    }
 
    
 }
 
 @media (max-width: 767px){
+
+    #insights-container{
+        flex-direction: column;
+       
+        align-items: center;
+    }
+
+    #insight-matter{
+        width: 100%;
+        align-items: center;
+    }
+    
+    #insight-blocks{
+        width: 100%;
+        align-items: center;
+    }
    
 }
