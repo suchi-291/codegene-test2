@@ -181,12 +181,12 @@ nav a {
 
 }
 
-#page1 #hero-overlay {
+#hero-overlay {
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
-    background-color: rgba(6, 5, 5, 0.908);
+    background-color: rgba(1, 1, 1, 69%);
 }
 
 
@@ -253,6 +253,7 @@ nav a {
     position: absolute;
     top: 0;
     background-color: rgba(7, 11, 15, 0.85);
+
 }
 
 
